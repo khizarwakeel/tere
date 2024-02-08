@@ -5,7 +5,11 @@
 }
 
 .navbar {
-    background-color: white !important;
+    background-color: #f1f3f4 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .flexNav {
@@ -64,7 +68,7 @@
 }
 
 .headingDesig {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 50px;
     line-height: 50px;
 }
@@ -101,4 +105,89 @@
     .downBtn {
         width: 130px;
     }
+}
+
+
+.mtop {
+    padding-top: 100px !important;
+}
+
+.formBg {
+    background-color: #75BF7A;
+    height: 180px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 0px 40px;
+}
+
+@media only screen and (max-width : 425px) {
+
+    .formBg {
+        background-color: #75BF7A;
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+.widthInput {
+    width: 400px !important;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+.btnPhone {
+    height: 50px;
+    width: 150px !important;
+    border-radius: 2px;
+    background-color: #000;
+}
+
+.paraLets {
+    width: 250px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+}
+
+.paraLets>p {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .widthInput {
+        width: 100% !important;
+        height: 40px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 0px;
+    }
+
+    .btnPhone {
+        height: 40px;
+        width: 130px !important;
+        border-radius: 2px;
+        background-color: #000;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .paraLets {
+        font-size: 22px;
+    }
+}
+
+.btnPhone:hover {
+    background-color: #0a0a0a !important;
 }
