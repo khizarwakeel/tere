@@ -126,10 +126,10 @@
         background-color: #75BF7A;
         margin-top: 30px;
         border-radius: 10px;
-        width: 93%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 260px;
     }
 
 }
@@ -185,9 +185,24 @@
 
     .paraLets {
         font-size: 22px;
+        width: 200px;
     }
 }
 
 .btnPhone:hover {
     background-color: #0a0a0a !important;
+}
+
+.TereHead {
+    color: #75BF7A;
+}
+
+.terePara {
+    color: gray;
+    margin-top: 10px;
+}
+
+.widthTere {
+    width: 50%;
+    margin: auto;
 }
