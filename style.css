@@ -88,6 +88,12 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .contWidth {
+        width: 50%;
+    }
+}
+
 @media only screen and (max-width: 425px) {
     .headingDesig {
         font-weight: 700;
@@ -195,6 +201,7 @@
 
 .TereHead {
     color: #75BF7A;
+    font-weight: bold;
 }
 
 .terePara {
