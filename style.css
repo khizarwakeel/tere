@@ -88,7 +88,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .contWidth {
         width: 50%;
     }
@@ -194,6 +194,14 @@
         width: 200px;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .paraLets {
+        font-size: 18px;
+        width: 200px;
+    }
+}
+
 
 .btnPhone:hover {
     background-color: #0a0a0a !important;
