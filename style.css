@@ -96,9 +96,10 @@
 
 @media only screen and (max-width: 425px) {
     .headingDesig {
-        font-weight: 700;
-        font-size: 25px;
+        font-weight: 800;
+        font-size: 30px;
         line-height: 35px;
+        text-align: center;
     }
 
     .paraDesign {
@@ -106,6 +107,7 @@
         line-height: 28px;
         margin-top: 10px;
         color: gray;
+        text-align: center;
     }
 
     .downBtn {
@@ -135,7 +137,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 260px;
+        padding: 0px 20px;
+        height: 220px;
     }
 
 }
@@ -155,6 +158,7 @@
     width: 150px !important;
     border-radius: 2px;
     background-color: #000;
+    border-radius: 5px;
 }
 
 .paraLets {
@@ -176,13 +180,11 @@
         outline: none;
         border: none;
         margin-bottom: 10px;
-        border-radius: 0px;
     }
 
     .btnPhone {
         height: 40px;
-        width: 130px !important;
-        border-radius: 2px;
+        width: 100% !important;
         background-color: #000;
         margin: auto;
         display: flex;
@@ -197,11 +199,10 @@
 
 @media only screen and (max-width: 425px) {
     .paraLets {
-        font-size: 18px;
+        font-size: 21px;
         width: 200px;
     }
 }
-
 
 .btnPhone:hover {
     background-color: #0a0a0a !important;
@@ -220,4 +221,10 @@
 .widthTere {
     width: 50%;
     margin: auto;
+}
+
+@media only screen and (max-width: 425px) {
+    .widthTere {
+        width: 100%;
+    }
 }
